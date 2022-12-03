@@ -1,0 +1,38 @@
+.sector-wrapper{
+    padding-top: 3rem;
+        width: 80%;
+        margin: auto;
+        gap: 1rem;
+        justify-content: space-around;
+   
+}
+#sec-title{
+    margin-bottom: 4rem;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(11, 33, 75);
+}
+.sec-container{
+    border-radius: 10px;
+    padding: 30px 20px;
+    display: flex;
+    gap:3rem;
+    margin-bottom: 3rem;
+    box-shadow:0 0.5rem 1rem rgba(1, 8, 62, 0.05) ;
+}
+.btn-container{
+    color: rgb(11, 33, 75);
+    width:30%;
+    text-transform: capitalize;
+}
+.btn-container h2 span{
+    color:rgb(249,157,28);
+    margin-right: 0.5rem;}
+
+.content{
+    width: 70%;
+}
+.content h2{
+    color: rgb(11, 33, 75);
+    text-transform: capitalize;
+}

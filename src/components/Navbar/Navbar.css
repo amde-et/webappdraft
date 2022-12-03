@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  /* z-index: 1000; */
+  /* background: linear-gradient(rgb(6, 28, 72),rgb(1, 13, 36)); */
+  background-color: rgb(19, 33, 60);
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+  /* padding-bottom: 2rem; */
+  box-shadow: 0 0.5rem 1rem rgba(1, 36, 21, 0.1);
+}
+nav ul {
+  float: right;
+  margin-right: 8rem;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  /* padding-buttom: 17px; */
+  margin: 0 15px;
+}
+nav ul li a {
+  padding-bottom: 3rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+  /* background-color: rgb(41, 228, 17); */
+  /* font-size: 17px; */
+  padding: 7px 13px;
+  border-radius: 4px;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+a:hover {
+  color: rgb(249, 157, 28);
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  font-weight: bold;
+  margin-left: 8rem;
+  text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+.menu-bar {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+.menu-bar:hover {
+  color: rgb(249, 157, 28);
+}
+.links li {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  list-style: none;
+}
+
+@media (max-width: 1500px) {
+  .logo {
+    margin-left: 6rem;
+  }
+  nav ul {
+    margin-right: 6rem;
+  }
+}
+@media (max-width: 1250px) {
+  .logo {
+    margin-left: 4rem;
+    font-size: 30px;
+  }
+  .links li {
+    font-size: 1rem;
+    text-transform: capitalize;
+    list-style: none;
+  }
+  nav ul {
+    margin-right: 3rem;
+  }
+}
+@media (max-width: 960px) {
+  .menu-bar {
+    display: block;
+  }
+  .links {
+    display: none;
+  }
+
+  .show {
+    display: block;
+    position: fixed;
+    top: 80px;
+    width: 100%;
+
+    text-align: center;
+    background-color: rgb(12, 30, 63);
+  }
+  .show li {
+    display: block;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  }
+  .show li:last-child {
+    border: none;
+  }
+}
+@media (max-width: 500px) {
+  .logo {
+    font-size: 25px;
+    padding-left: 20px;
+  }
+  .menu-bar {
+    font-size: 24px;
+  }
+}
+@media (max-width: 400px) {
+  .logo {
+    font-size: 25px;
+    padding-left: 5px;
+  }
+  .menu-bar {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-pad{
+    padding-top: 4rem;
+}
+.service-title{
+    margin-top: 30px;
+    text-align: center;
+    
+    text-align: center;
+    position: relative;
+    
+}
+.service-title h1{
+    font-size: 3rem;
+    color:   rgb(11, 33, 75);
+  }
+  .barr{
+    display: flex;
+    justify-content: center;
+  }
+.bar{
+    position: absolute;
+    text-align: center;
+    width: 6rem;
+    height: 4px;
+    background-color: rgb(249,157,28);
+}
+.services{
+    padding: 100px 0px 100px 0px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+}
+.services-card{
+    padding: 50px 20px 20px 20px;
+    margin-bottom: 2rem;
+    flex: 1 1 20rem;
+    box-shadow:0 0.5rem 1rem rgba(1, 8, 62, 0.05) ;
+    border-radius: 10px;
+    transition: .5s;
+}
+.services-card:hover{
+    
+    /* color:white; */
+    transform: translateY(-2rem);
+    box-shadow:0 0.5rem 1rem rgba(1, 8, 62, 0.05) ;
+    /* background:linear-gradient(rgb(2, 2, 27),rgb(1, 1, 61)); */
+}
+/* .services-card h1:hover{
+    color: white;
+} */
+.services-card h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(11, 33, 75);
+}
+.icon-container{
+    text-align: center;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    color: rgb(249,157,28);
+    margin-bottom: 2rem;
+}
