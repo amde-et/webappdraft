@@ -1,7 +1,7 @@
 const data = [
     {
         question:'Why Choose AMDE Solutions as a Website or Software Development Service Provider?',
-        answer:'AMDE Solutions strives to be the best. Our substantial experience and competency in providing diversified website and software development services with the latest technology standards have empowered many businesses. Our development experts specialize in customer-centric engagement models, strict quality measures, in-depth technical and domain expertise, and an understanding of different software development frameworks, programming languages, and platforms to deliver the best web software solutions.'
+        answer:' Our Company strives to be the best. Our substantial experience and competency in providing diversified website and software development services with the latest technology standards have empowered many businesses. Our development experts specialize in customer-centric engagement models, strict quality measures, in-depth technical and domain expertise, and an understanding of different software development frameworks, programming languages, and platforms to deliver the best web software solutions.'
     },
     {
         question:'As a Software development Firm, What Software development Services do you offer?',
