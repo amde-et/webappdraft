@@ -5,11 +5,13 @@ import '../Show/Show.css';
 const Show = () => {
   const [count, setCount] = useState(0);
   const [items, setItems] = useState([
-    'APP DESIGNER  ',
-    'UX UI DESIGNER',
-    'WEB DESIGNER',
-    'WEB DEVELOPER ',
-    'APP DEVELOPER',
+     'Full Stack Developer',
+     'Python Developer ',
+     'UX UI DESIGNER  ',
+    'Mobile app developer ',
+    'Cloud Engineer ',
+    'Or what else',
+    
   ]);
   useEffect(() => {
     let time = setTimeout(() => {
