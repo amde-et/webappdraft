@@ -20,7 +20,7 @@ const Navbar = () => {
         </label>
         <label className="logo">
           {' '}
-          <span style={{ color: 'rgb(249,157,28)' }}>Amde Software Technologies </span> Solutions
+          <span style={{ color: 'rgb(249,157,28)' }}>Amde Technologies and Software</span> Solutions 
         </label>
         <ul className={`${open ? 'links show' : 'links'}`}>
           <li>
